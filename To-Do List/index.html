@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>To-Do List App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="Images/icons8-todo-list-100.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Please add your text" onkeydown="addTask(event)">
+                <button onclick="addTask()">Ekle</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Yapılacaklar 1</li>
+                <li>Yapılacaklar 2</li>
+                <li>Yapılacaklar 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <div>
+        <p class="info"><a target="_blank" href="https://icons8.com/icon/114416/todo-list">Todo List</a>
+            icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            <a target="_blank" href="https://icons8.com/icon/74MALSKkIxzx/double-tick">Checked</a> icon by <a
+                target="_blank" href="https://icons8.com">Icons8</a>
+            <a target="_blank" href="https://icons8.com/icon/111276/unchecked-checkbox">Unchecked</a> icon by <a
+                target="_blank" href="https://icons8.com">Icons8</a>
+        </p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
